@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SH2.0</string>
+    <string name="weixin">微信</string>
+    <string name="frd">朋友</string>
+    <string name="contact">通讯录</string>
+    <string name="settings">设置</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".m02">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="353dp"
+            android:layout_height="380dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            tools:src="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="92dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/btn_all_shape"
+
+                android:text="ZoomIn" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="150dp"
+                android:layout_height="92dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/btn_all_shape"
+                android:text="ZoomOut" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-135dp"
+            android:background="@drawable/btn_all_shape"
+            android:text="Change" />
+    </LinearLayout>
+
+
+</FrameLayout>

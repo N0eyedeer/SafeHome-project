@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fontFamily="@font/pb">
+
+    <TextView
+        android:fontFamily="@font/pb"
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:typeface="serif"
+
+        />
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="399dp"
+        android:layout_height="399dp"
+        android:layout_below="@id/tv_1"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-103dp"
+        android:background="@drawable/owl"
+
+        android:scaleY="0.6" />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/iv_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-43dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_username"
+        android:drawableLeft="@drawable/geren"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/pb"
+        android:hint="UserID"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/et_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_username"
+        android:drawableLeft="@drawable/suo"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/pb"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <CheckBox
+        android:fontFamily="@font/pb"
+        android:id="@+id/cb_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="18dp"
+        android:text="Remember"
+
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/cb_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/selector_orange"
+        android:fontFamily="@font/pb"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
